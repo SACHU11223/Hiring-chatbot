@@ -2,7 +2,7 @@
 
 An intelligent AI-based hiring assistant chatbot built using **Streamlit** and **Gemini LLM**, designed to simulate the initial screening round of a job interview for technical candidates.
 
-> ✅ Project submission for AI/ML Intern Position @ PGAGI
+
 
 ---
 
@@ -104,10 +104,6 @@ Carefully designed prompts instruct Gemini to:
 Each candidate's performance is scored based on the **length and quality of responses**, resulting in a rating out of 5 at the end of the conversation.
 
 ---
-
-## 🎥 Demo
-
-Record a short walkthrough using [Loom]() or similar, and upload the link here.
 
 ---
 ---
