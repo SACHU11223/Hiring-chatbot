@@ -4,7 +4,7 @@ import json
 import re
 
 # Gemini API Setup
-GOOGLE_API_KEY = "AIzaSyB-VFy57eHAJfs7uRQUOX6LbjnWxmhle2Q"  # Replace with your actual key
+GOOGLE_API_KEY = "*****************"  # Replace with your actual key
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-1.5-flash')
 
@@ -197,3 +197,4 @@ else:
         for key in ["chat_history", "candidate_info", "stage", "questions", "current_question_index", "qa_pairs", "chat_ended"]:
             st.session_state.pop(key, None)
         st.rerun()
+
